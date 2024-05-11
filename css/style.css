@@ -14,11 +14,28 @@
 h1{
     text-align: center;
     color: red;
+    margin-bottom: 3rem;
 }
 
 p{
     height: 50px;
     width: calc(100% / 10);
     text-align: center;
+    line-height: 3rem;
+}
+
+p.number {
+    color: blueviolet;
+}
+
+p.fizz{
+    color: red;
+}
+
+p.buzz{
     color: blue;
+}
+
+p.fizzbuzz{
+    color: black;
 }
